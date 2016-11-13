@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/MyProject/!svn/ver/499/hpe/src/cn/hpe/dao
+END
+ScoreDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MyProject/!svn/ver/474/hpe/src/cn/hpe/dao/ScoreDAO.java
+END
+TeacherDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MyProject/!svn/ver/499/hpe/src/cn/hpe/dao/TeacherDAO.java
+END
+QuestionDAOImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MyProject/!svn/ver/474/hpe/src/cn/hpe/dao/QuestionDAOImp.java
+END
+TeacherDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MyProject/!svn/ver/499/hpe/src/cn/hpe/dao/TeacherDaoImpl.java
+END
+ScoreDAOImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MyProject/!svn/ver/493/hpe/src/cn/hpe/dao/ScoreDAOImp.java
+END
+QuestionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MyProject/!svn/ver/448/hpe/src/cn/hpe/dao/QuestionDAO.java
+END
+ExamDAOImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MyProject/!svn/ver/423/hpe/src/cn/hpe/dao/ExamDAOImp.java
+END
+StudentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MyProject/!svn/ver/483/hpe/src/cn/hpe/dao/StudentDAO.java
+END
+StudentDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MyProject/!svn/ver/476/hpe/src/cn/hpe/dao/StudentDAOImpl.java
+END
+PaperDAOImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MyProject/!svn/ver/480/hpe/src/cn/hpe/dao/PaperDAOImp.java
+END
+PaperDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MyProject/!svn/ver/480/hpe/src/cn/hpe/dao/PaperDAO.java
+END
+ExamDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MyProject/!svn/ver/423/hpe/src/cn/hpe/dao/ExamDAO.java
+END

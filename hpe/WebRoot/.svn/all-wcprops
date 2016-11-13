@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/MyProject/!svn/ver/503/hpe/WebRoot
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/MyProject/!svn/ver/426/hpe/WebRoot/login.jsp
+END
+questionManage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MyProject/!svn/ver/443/hpe/WebRoot/questionManage.jsp
+END
+wrong.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/MyProject/!svn/ver/419/hpe/WebRoot/wrong.jsp
+END
+studentBeginExam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MyProject/!svn/ver/492/hpe/WebRoot/studentBeginExam.jsp
+END
+studentBegin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/MyProject/!svn/ver/467/hpe/WebRoot/studentBegin.jsp
+END
+paperReader.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/MyProject/!svn/ver/497/hpe/WebRoot/paperReader.jsp
+END
+studentChangePwd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MyProject/!svn/ver/473/hpe/WebRoot/studentChangePwd.jsp
+END
+charge.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/MyProject/!svn/ver/503/hpe/WebRoot/charge.jsp
+END
+studentScoreShow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MyProject/!svn/ver/493/hpe/WebRoot/studentScoreShow.jsp
+END
+500.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/MyProject/!svn/ver/502/hpe/WebRoot/500.jsp
+END
+404.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/MyProject/!svn/ver/502/hpe/WebRoot/404.jsp
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/MyProject/!svn/ver/185/hpe/WebRoot/main.jsp
+END
+questionFindResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/questionFindResult.jsp
+END
+examShow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/examShow.jsp
+END
+questionQuery.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/MyProject/!svn/ver/222/hpe/WebRoot/questionQuery.jsp
+END
+paperClassRead.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MyProject/!svn/ver/499/hpe/WebRoot/paperClassRead.jsp
+END
+questionShow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/questionShow.jsp
+END
+left.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/MyProject/!svn/ver/495/hpe/WebRoot/left.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/MyProject/!svn/ver/413/hpe/WebRoot/error.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/MyProject/!svn/ver/232/hpe/WebRoot/header.jsp
+END
+studentWaitExam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MyProject/!svn/ver/492/hpe/WebRoot/studentWaitExam.jsp
+END
+questionUpdate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MyProject/!svn/ver/160/hpe/WebRoot/questionUpdate.jsp
+END
+showPaper.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/MyProject/!svn/ver/499/hpe/WebRoot/showPaper.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/index.jsp
+END
+test.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/MyProject/!svn/ver/280/hpe/WebRoot/test.jsp
+END
+classScoreShow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MyProject/!svn/ver/474/hpe/WebRoot/classScoreShow.jsp
+END
+studentIndex.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/MyProject/!svn/ver/485/hpe/WebRoot/studentIndex.jsp
+END
+scoreManage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/MyProject/!svn/ver/505/hpe/WebRoot/scoreManage.jsp
+END
+studentShow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/studentShow.jsp
+END
+paperReaderMessage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MyProject/!svn/ver/502/hpe/WebRoot/paperReaderMessage.jsp
+END
+setClassPtScore.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MyProject/!svn/ver/493/hpe/WebRoot/setClassPtScore.jsp
+END
+paperInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/paperInfo.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/footer.jsp
+END
+questionAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/MyProject/!svn/ver/386/hpe/WebRoot/questionAdd.jsp
+END
+studentShowHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MyProject/!svn/ver/400/hpe/WebRoot/studentShowHistory.jsp
+END
+right.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/MyProject/!svn/ver/502/hpe/WebRoot/right.jsp
+END
+questionMultiUpdate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/questionMultiUpdate.jsp
+END
+paperCheck.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/paperCheck.jsp
+END
+exit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/MyProject/!svn/ver/472/hpe/WebRoot/exit.jsp
+END
+questionEssayUpdate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MyProject/!svn/ver/464/hpe/WebRoot/questionEssayUpdate.jsp
+END
+paperGenerate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/MyProject/!svn/ver/448/hpe/WebRoot/paperGenerate.jsp
+END
+paperPublish.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/MyProject/!svn/ver/490/hpe/WebRoot/paperPublish.jsp
+END

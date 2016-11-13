@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>hpe</display-name>
+  
+  <servlet>
+    <servlet-name>QuestionServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.QuestionServlet</servlet-class>
+  </servlet> 
+  
+   <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.LoginServlet</servlet-class>
+   </servlet>
+  <servlet>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ScoreServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.ScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SuccServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.SuccServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChargeServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.ChargeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SumServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.SumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExamServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.ExamServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentChangePwd</servlet-name>
+    <servlet-class>cn.hpe.servlet.StudentChangePwd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentCheckExam</servlet-name>
+    <servlet-class>cn.hpe.servlet.StudentCheckExam</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>examCountDown</servlet-name>
+    <servlet-class>cn.hpe.servlet.examCountDown</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowPaperServlet</servlet-name>
+    <servlet-class>cn.hpe.servlet.ShowPaperServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>QuestionServlet</servlet-name>
+    <url-pattern>/QuestionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreServlet</servlet-name>
+    <url-pattern>/ScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SuccServlet</servlet-name>
+    <url-pattern>/SuccServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChargeServlet</servlet-name>
+    <url-pattern>/ChargeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SumServlet</servlet-name>
+    <url-pattern>/SumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamServlet</servlet-name>
+    <url-pattern>/ExamServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentChangePwd</servlet-name>
+    <url-pattern>/StudentChangePwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentCheckExam</servlet-name>
+    <url-pattern>/StudentCheckExam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>examCountDown</servlet-name>
+    <url-pattern>/examCountDown</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowPaperServlet</servlet-name>
+    <url-pattern>/ShowPaperServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  	<filter>
+		<filter-name>loginFilter</filter-name>
+		<filter-class>cn.hpe.filter.LoginFilter</filter-class>
+		<init-param>
+			<param-name>excludeResource</param-name>
+			<param-value>ExitServlet;login.jsp;SuccServlet;loginServlet;.js;.css;.gif;.jpg;.png;.map</param-value>
+		</init-param>
+		<init-param>
+			<param-name>teacherPages</param-name>
+			<param-value>main.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>studentPages</param-name>
+			<param-value>StudentServlet;studentIndex.jsp;studentBegin.jsp;studentBeginExam.jsp;studentWaitExam.jsp;StudentCheckExamServlet;studentShowHistory.jsp;studentChangePwd.jsp;studentShow.jsp;ExamServlet;paperReader.jsp;ExamCountDownServlet;</param-value>
+		</init-param>
+	</filter>
+  	<filter-mapping>
+		<filter-name>loginFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  
+   	<filter>
+		<filter-name>IsLoginFilter</filter-name>
+		<filter-class>cn.hpe.filter.IsLoginFilter</filter-class>
+		<init-param>
+			<param-name>excludeResource</param-name>
+			<param-value>login.jsp;SuccServlet;loginServlet;.js;.css;.gif;.jpg;.png</param-value>
+		</init-param>
+	</filter>
+  	<filter-mapping>
+		<filter-name>IsLoginFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  
+  <error-page>
+  		<error-code>404</error-code>
+  		<location>/404.jsp</location>
+  </error-page>
+  
+  <error-page>
+  		<error-code>500</error-code>
+  		<location>/500.jsp</location>
+  </error-page>
+</web-app>
